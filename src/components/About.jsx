@@ -5,6 +5,7 @@ import {
   faPeopleGroup,
   faMedal,
 } from "@fortawesome/free-solid-svg-icons";
+import H2 from "./H2.jsx";
 
 function About() {
   const textContent = [
@@ -37,9 +38,7 @@ function About() {
         />
       </div>
       <div className={"flex flex-col gap-10 w-1/2"}>
-        <h2 className="text-5xl font-header-serif font-bold">
-          À propos de nous
-        </h2>
+        <H2 text={"À propos de nous"}></H2>
 
         {textContent.map((item, index) => (
           <div className={"flex flex-col gap-5 px-2"} key={index}>
@@ -51,7 +50,7 @@ function About() {
               />
               <h3 className={"text-2xl font-bold"}>{item.header}</h3>
             </div>
-            <p>{item.description}</p>
+            <p className="text-lg/8">{item.description}</p>
           </div>
         ))}
       </div>

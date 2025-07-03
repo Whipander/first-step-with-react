@@ -50,7 +50,7 @@ function Hero() {
               alt={`HEI Banner ${index + 1}`}
               className="h-screen w-screen object-cover object-center"
             />
-            <div className="absolute inset-0 bg-black/70 flex flex-col justify-center items-center text-center gap-32 px-4">
+            <div className="absolute inset-0 bg-black/70 flex flex-col justify-center items-center text-center gap-20 px-4">
               <h1 className="text-white font-header-serif text-8xl leading-tight">
                 Haute École d'Informatique
               </h1>
