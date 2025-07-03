@@ -21,7 +21,7 @@ function Hero() {
         {
             image: heiBanner2,
             description:
-                "« L'éducation est l'arme la plus puissante pour changer le monde. » Selon Nelson Mandela. « L'éducation dans l'informatique est une arme très puissante pour lutter contre la pauvreté à Madagascar » Selon HEI. C'est notre mission",
+                "« L'éducation est l'arme la plus puissante pour changer le monde. » Selon Nelson Mandela. « L'éducation dans l'informatique est une arme très puissante pour lutter contre la pauvreté à Madagascar » Selon HEI. C'est notre mission.",
         },
         {
             image: heiBanner3,
@@ -55,15 +55,14 @@ function Hero() {
                                 Haute École d'Informatique
                             </h1>
 
-                            {/* Dynamic Text based on current slide */}
-                            <p className="text-white text-xl w-3/4 max-w-4xl transition-all duration-500">
+                            <p className="text-white text-xl w-3/4 max-w-3xl transition-all duration-500">
                                 {slides[currentSlide].description}
                             </p>
 
-                            <div className="font-bold text-lg flex items-center gap-10 w-1/2 flex-wrap justify-center">
-                                <Button btnStyle="white" label="Inscrivez-vous ici" size="lg" />
-                                <Button btnStyle="orange" label="Emploi du temps" size="lg" />
-                                <Button btnStyle="blue" label="Programme pédagogique" size="lg" />
+                            <div className="font-bold text-lg flex items-center gap-16 w-3/4 flex-wrap justify-center">
+                                <Button btnStyle="white" label="Inscrivez-vous ici" size="lg" customAttributes="min-w-1/5" />
+                                <Button btnStyle="orange" label="Emploi du temps" size="lg" customAttributes="min-w-1/5" />
+                                <Button btnStyle="blue" label="Programme pédagogique" size="lg" customAttributes="min-w-1/5" />
                             </div>
 
                             <p className="text-white text-xl">Habilitation MESupRES, suivant l'arrêté n°31309/2023</p>
