@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <NavBar />
-        <Hero/>
-        <About/>
+      <Hero />
+      <About />
     </>
   );
 }
