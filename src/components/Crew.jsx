@@ -16,7 +16,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const Card = ({ member }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-6 text-blue-950 flex flex-col items-center h-96">
+    <div className="bg-white rounded-2xl overflow-clip shadow-lg p-6 text-blue-950 flex flex-col items-center h-96">
       <img
         src={member.imageSrc}
         alt={member.name}

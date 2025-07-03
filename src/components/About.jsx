@@ -29,7 +29,7 @@ function About() {
     },
   ];
   return (
-    <div className="h-screen flex justify-center items-center text-blue-950 py-2 mx-96 gap-10">
+    <div className="flex justify-center items-center text-blue-950 py-2 mx-52 my-16 gap-10">
       <div className={"flex justify-center items-center w-1/2"}>
         <img
           src={aboutImage}
