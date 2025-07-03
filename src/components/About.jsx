@@ -42,7 +42,7 @@ function About() {
 
         {textContent.map((item, index) => (
           <div className={"flex flex-col gap-5 px-2"} key={index}>
-            <div className={"flex items-center gap-2"}>
+            <div className={"flex items-center gap-3"}>
               <FontAwesomeIcon
                 icon={item.icon}
                 size={"4x"}
@@ -50,7 +50,7 @@ function About() {
               />
               <h3 className={"text-2xl font-bold"}>{item.header}</h3>
             </div>
-            <p className="text-lg/8">{item.description}</p>
+            <p className="text-base/8">{item.description}</p>
           </div>
         ))}
       </div>

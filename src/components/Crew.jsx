@@ -16,14 +16,16 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
 const Card = ({ member }) => {
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 text-blue-950 flex flex-col items-center h-96">
+    <div className="bg-white rounded-2xl shadow-lg p-6 text-blue-950 flex flex-col items-center h-96">
       <img
         src={member.imageSrc}
         alt={member.name}
         className="size-48 rounded-full object-cover mb-4"
       />
-      <h3 className="text-2xl font-bold font-header-serif">{member.name}</h3>
-      <p className="text-sm text-center">{member.job}</p>
+      <h3 className="text-2xl font-semibold font-header-serif">
+        {member.name}
+      </h3>
+      <p className="text-sm/6 text-center mt-2">{member.job}</p>
     </div>
   );
 };
@@ -76,7 +78,7 @@ const Crew = () => {
     <div className="bg-tan text-white py-16 px-6 md:px-400 text-center">
       <div className="mb-10">
         <H2 text="L'équipe pédagogique" />
-        <p className="text-lg/8 mt-4">
+        <p className="text-base/8 mt-4">
           Notre équipe pédagogique se compose d’experts nationaux et
           internationaux de l’informatique, de la cybersécurité, de
           l’intelligence artificielle, dont un ingénieur chez Google. Ils sont
@@ -94,7 +96,6 @@ const Crew = () => {
         navigation
         pagination={{ clickable: true }}
         autoplay={{ delay: 3500 }}
-        className="py-10"
       >
         {crewMembers.map((member, index) => (
           <SwiperSlide key={index}>
