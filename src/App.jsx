@@ -3,6 +3,7 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Crew from "./components/Crew.jsx";
 import Debouche from "./components/Debouche.jsx";
+import Domaine from "./components/Domaine.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Crew />
       <Debouche/>
+      <Domaine/>
     </>
   );
 }
