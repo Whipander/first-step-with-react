@@ -2,7 +2,7 @@ import NavBar from "./components/NavBar.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Crew from "./components/Crew.jsx";
-import Debouche from "./components/Debouche.jsx";
+import Opportunities from "./components/Opportunities.jsx";
 import Domaine from "./components/Domaine.jsx";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <About />
       <Crew />
-      <Debouche/>
+      <Opportunities/>
       <Domaine/>
     </>
   );

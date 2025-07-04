@@ -17,10 +17,10 @@ const DomaineCard = ({ pic, title, content }) => {
 
 const Domaine = () => {
   return (
-    <section className="bg-gray-100 py-8 px-4">
+    <section className="bg-gray-100 py-8 px-4 text-blue-950">
       <div className="max-w-6xl items-center text-center mx-auto flex flex-col gap-4">
         <H2 text="Domaines"/>
-        <p className="text-base text-blue-950 text-[17px]">
+        <p className="text-base text-[17px]">
           Au cours de vos trois ans de formation, naviguez entre les domaines
           les plus porteurs du numérique du présent et de l'avenir :
         </p>
