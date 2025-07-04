@@ -6,6 +6,7 @@ import Opportunities from "./components/Opportunities.jsx";
 import Domaine from "./components/Domaine.jsx";
 import Admission from "./components/Admission.jsx";
 import Program from "./components/Program.jsx";
+import Techno from "./components/Techno.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Domaine/>
       <Admission/>
       <Program/>
+      <Techno/>
     </>
   );
 }
