@@ -7,7 +7,7 @@ const DomaineCard = ({ pic, title, content }) => {
   return (
     <div className="rounded-xl hover:shadow-md flex flex-col transition-all items-center text-center px-8 pb-6 h-[70vh] bg-white w-full sm:w-1/3">
       <img src={pic} alt={`${title} illustration`} className="w-36" />
-      <h3 className="text-2xl mt-2 mb-4 font-header-serif font-semibold text-amber-500">
+      <h3 className="text-2xl mt-2 mb-4 font-header-serif font-semibold text-amber-400">
         {title}
       </h3>
       <p className="text-blue-950 text-[17px]">{content}</p>
@@ -17,7 +17,7 @@ const DomaineCard = ({ pic, title, content }) => {
 
 const Domaine = () => {
   return (
-    <section className="bg-gray-100 py-8 px-4 text-blue-950">
+    <section className="bg-gray-100 py-10 px-4 text-blue-950">
       <div className="max-w-6xl items-center text-center mx-auto flex flex-col gap-4">
         <H2 text="Domaines"/>
         <p className="text-base text-[17px]">

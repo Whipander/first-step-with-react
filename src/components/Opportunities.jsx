@@ -1,4 +1,3 @@
-import React from "react";
 import H2 from "./H2.jsx";
 import opportunitesImg from "../assets/opportunities.webp";
 const Opportunities = () => {
