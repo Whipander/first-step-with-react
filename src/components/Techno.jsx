@@ -13,10 +13,10 @@ import TechImg11 from "../assets/techno/techno11.png";
 
 const Techno = () => {
   return (
-    <section className="bg-gray-100 py-10 px-4 text-blue-950">
+    <section className="bg-gray-100 py-16 px-4 text-blue-950">
       <div className="max-w-6xl items-center text-center mx-auto flex flex-col gap-5">
         <H2 text="Les technos et langages utilisées" />
-        <p className="text-base text-[17px]">
+        <p className="text-base text-[17px] mx-28">
           Nos étudiants sont formés à l’utilisation et à la maîtrise des
           langages de programmation Java et JavaScript. Ces deux langages
           occupent une place de choix dans le domaine du développement logiciel
