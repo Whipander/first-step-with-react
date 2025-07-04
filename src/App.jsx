@@ -4,6 +4,7 @@ import About from "./components/About.jsx";
 import Crew from "./components/Crew.jsx";
 import Opportunities from "./components/Opportunities.jsx";
 import Domaine from "./components/Domaine.jsx";
+import Admission from "./components/Admission.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Crew />
       <Opportunities/>
       <Domaine/>
+      <Admission/>
     </>
   );
 }
