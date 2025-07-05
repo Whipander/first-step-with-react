@@ -3,22 +3,11 @@ import H2 from "../components/H2";
 import ProgImg1 from "../assets/pro1.webp";
 import ProgImg2 from "../assets/pro2.webp";
 import ProgImg3 from "../assets/pro3.webp";
-
-const ProgramCard = ({ percentage, title }) => {
-  return (
-    <div
-      className="rounded-3xl bg-amber-100 h-[230px] w-[270px]
-     flex flex-col gap-5 p-5"
-    >
-      <div className="text-amber-500 text-5xl font-bold">{percentage}</div>
-      <div className="font-bold text-2xl text-blue-950">{title}</div>
-    </div>
-  );
-};
+import { ProgramCard } from "../components/ProgramCard";
 
 const Program = () => {
   return (
-    <>
+    <section>
       <div className="flex justify-center items-center text-blue-950 my-16">
         <div className="w-[75vw] flex flex-col gap-6">
           <div className="flex gap-16 mb-6 items-center">
@@ -55,25 +44,13 @@ const Program = () => {
             <ProgramCard percentage="25%" title="Apprentissage en entreprise" />
           </div>
           <div className="grid grid-cols-3 gap-5">
-            <img
-              src={ProgImg1}
-              alt="People in HEI"
-              className=""
-            />
-            <img
-              src={ProgImg2}
-              alt="People in HEI"
-              className=""
-            />
-            <img
-              src={ProgImg3}
-              alt="People in HEI"
-              className=""
-            />
+            <img src={ProgImg1} alt="People in HEI" className="" />
+            <img src={ProgImg2} alt="People in HEI" className="" />
+            <img src={ProgImg3} alt="People in HEI" className="" />
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 export default Program;

@@ -1,6 +1,6 @@
 import heiLogo from "../assets/hei-logo.png";
-import Button from "../components/Button.jsx";
-import Navigation from "../components/Navigation.jsx";
+import Button from "./Button.jsx";
+import Navigation from "./Navigation.jsx";
 
 function NavBar() {
   return (

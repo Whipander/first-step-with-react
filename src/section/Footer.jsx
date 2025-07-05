@@ -8,10 +8,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import H3 from "../components/H3.jsx";
-
-const Paragraphe = ({ text }) => {
-  return <p className="text-base/7 text-gray-200">{text}</p>;
-};
+import Paragraphe from "../components/Paragraphe.jsx";
 
 const Footer = () => {
   const adresse = [

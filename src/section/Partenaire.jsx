@@ -22,17 +22,35 @@ const Partenaire = () => {
         </p>
         <div className="flex flex-col gap-3">
           <div className="flex items-center gap-20 mt-10">
-            <img src={ParImg1} alt="NEXTa" className="w-32" />
-            <img src={ParImg2} alt="PNM" className="h-16" />
-            <img src={ParImg3} alt="yooz" className="w-36" />
-            <img src={ParImg4} alt="etech" className="w-36" />
-            <img src={ParImg5} alt="EMIT" className="w-32" />
+            <a href="http://www.nexta.mg/">
+              <img src={ParImg1} alt="NEXTa" className="w-32" />
+            </a>
+            <a href="https://www.passerellesnumeriques.org/fr/">
+              <img src={ParImg2} alt="PNM" className="h-16" />
+            </a>
+            <a href="https://www.getyooz.com/fr/">
+              <img src={ParImg3} alt="yooz" className="w-36" />
+            </a>
+            <a href="https://etechconsulting-mg.com/">
+              <img src={ParImg4} alt="etech" className="w-36" />
+            </a>
+            <a href="https://emit.mg/accueil">
+              <img src={ParImg5} alt="EMIT" className="w-32" />
+            </a>
           </div>
           <div className="flex items-center mt-2 gap-20">
-            <img src={ParImg6} alt="Numer" className="w-36" />
-            <img src={ParImg7} alt="B Parters" className="w-40" />
-            <img src={ParImg8} alt="java" className="w-32" />
-            <img src={ParImg9} alt="Kante Co" className="w-32" />
+            <a href="https://www.numer.tech/">
+              <img src={ParImg6} alt="Numer" className="w-36" />
+            </a>
+            <a href="https://www.bpartners.app/home">
+              <img src={ParImg7} alt="B Parters" className="w-40" />
+            </a>
+            <a href="https://youritfactory.com/">
+              <img src={ParImg8} alt="java" className="w-32" />
+            </a>
+            <a href="https://kanteco.com/home">
+              <img src={ParImg9} alt="Kante Co" className="w-32" />
+            </a>
           </div>
         </div>
       </div>

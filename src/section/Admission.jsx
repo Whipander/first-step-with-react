@@ -1,40 +1,11 @@
-import H2 from "../components/H2";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const AdmissionCard = ({ number, title, content, arrow, color }) => {
-  return (
-    <>
-      <div
-        className={`${color} w-96 h-64 flex flex-col gap-5 p-5 items-start text-start`}
-      >
-        <div className="text-5xl font-bold">{number}</div>
-        {arrow ? (
-          <div className="flex w-full justify-between text-blue-950 text-[17px] pr-5">
-            <div className="w-[80%]">
-              <span className="font-bold">{title} : </span>
-              {content}
-            </div>
-            <FontAwesomeIcon
-              icon={faArrowRight}
-              color="white"
-              className="text-5xl"
-            />
-          </div>
-        ) : (
-          <div className="text-blue-950 text-[17px]">
-            <span className="font-bold">{title} : </span>
-            {content}
-          </div>
-        )}
-      </div>
-    </>
-  );
-};
+import { AdmissionCard } from "../components/AdmissionCard";
+import H2 from "../components/H2";
+
 
 const Admission = () => {
   return (
-    <div className="py-16 bg-tan text-white items-center justify-center text-center">
+    <section className="py-16 bg-tan text-white items-center justify-center text-center">
       <div className="flex flex-col gap-10 justify-center items-center">
         <H2 text="Admission" />
         <div className="w-[50vw] text-center flex flex-col gap-2">
@@ -50,21 +21,21 @@ const Admission = () => {
         <div className="flex">
           <AdmissionCard
             number="01"
-            color="bg-amber-200"
+            color="bg-[#FCDFB5]"
             title="Dépôt de dossiers"
             content="pour les bacheliers de toutes séries sans limite d’âge"
             arrow={true}
           />
           <AdmissionCard
             number="02"
-            color="bg-amber-300"
+            color="bg-[#FFCD8C]"
             title="Test de niveau"
             content="composé d’une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D"
             arrow={true}
           />
           <AdmissionCard
             number="03"
-            color="bg-amber-400"
+            color="bg-[#F9BF58]"
             title="Inscription définitive"
             content="(si test réussi)"
             arrow={false}
@@ -79,7 +50,7 @@ const Admission = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default Admission;

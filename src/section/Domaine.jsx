@@ -2,18 +2,7 @@ import H2 from "../components/H2";
 import CloudImg from "../assets/cloud.png";
 import IntelImg from "../assets/intel.png";
 import IngenImg from "../assets/ingen.png";
-
-const DomaineCard = ({ pic, title, content }) => {
-  return (
-    <div className="rounded-xl hover:shadow-md flex flex-col transition-all items-center text-center px-8 pb-6 h-[70vh] bg-white w-full sm:w-1/3">
-      <img src={pic} alt={`${title} illustration`} className="w-36" />
-      <h3 className="text-2xl mt-2 mb-4 font-header-serif font-semibold text-amber-400">
-        {title}
-      </h3>
-      <p className="text-blue-950 text-[17px]">{content}</p>
-    </div>
-  );
-};
+import { DomaineCard } from "../components/DomaineCard";
 
 const Domaine = () => {
   return (

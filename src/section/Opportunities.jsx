@@ -6,7 +6,7 @@ const Opportunities = () => {
     "Développeur back end, développeur front end, développeurs mobile, chefs de projet, exploitants cloud, analystes cybersécurité, pentesters, auditeur technique SSI, auditeur organisationnel SSI, administrateur système et réseau, développeur de sécurité…",
   ];
   return (
-    <div className="flex justify-center items-center text-blue-950 py-10 mx-72 gap-10">
+    <section className="flex justify-center items-center text-blue-950 py-10 mx-72 gap-10">
       <div className="w-1/2">
         <H2 text={"Quelques débouchés"} />
         <div className="flex flex-col gap-5 mt-5">
@@ -26,7 +26,7 @@ const Opportunities = () => {
           className="w-[456px]"
         />
       </div>
-    </div>
+    </section>
   );
 };
 
