@@ -26,7 +26,7 @@ const Program = () => {
               </button>
             </div>
           </div>
-          <div className="flex justify-between w-full">
+          <div className="flex justify-between w-full mb-6">
             <ProgramCard
               percentage="25%"
               title="Apprentissage théoriques en présentiel"
