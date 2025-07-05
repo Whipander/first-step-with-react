@@ -1,14 +1,14 @@
 import NavBar from "./components/NavBar.jsx";
-import Hero from "./components/Hero.jsx";
-import About from "./components/About.jsx";
-import Crew from "./components/Crew.jsx";
-import Opportunities from "./components/Opportunities.jsx";
-import Domaine from "./components/Domaine.jsx";
-import Admission from "./components/Admission.jsx";
-import Program from "./components/Program.jsx";
-import Techno from "./components/Techno.jsx";
-import Partenaire from "./components/Partenaire.jsx";
-import Footer from "./components/Footer.jsx";
+import About from "./section/About.jsx";
+import Admission from "./section/Admission.jsx";
+import Crew from "./section/Crew.jsx";
+import Domaine from "./section/Domaine.jsx";
+import Footer from "./section/Footer.jsx";
+import Hero from "./section/Hero.jsx";
+import Opportunities from "./section/Opportunities.jsx";
+import Partenaire from "./section/Partenaire.jsx";
+import Program from "./section/Program.jsx";
+import Techno from "./section/Techno.jsx";
 
 function App() {
   return (
