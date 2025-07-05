@@ -1,4 +1,4 @@
-import H2 from "./H2";
+import H2 from "../components/H2";
 import CloudImg from "../assets/cloud.png";
 import IntelImg from "../assets/intel.png";
 import IngenImg from "../assets/ingen.png";
@@ -19,7 +19,7 @@ const Domaine = () => {
   return (
     <section className="bg-gray-100 py-10 px-4 text-blue-950">
       <div className="max-w-6xl items-center text-center mx-auto flex flex-col gap-4">
-        <H2 text="Domaines"/>
+        <H2 text="Domaines" />
         <p className="text-base text-[17px]">
           Au cours de vos trois ans de formation, naviguez entre les domaines
           les plus porteurs du numérique du présent et de l'avenir :
