@@ -1,13 +1,14 @@
-import NavBar from "./components/NavBar.jsx";
-import Hero from "./components/Hero.jsx";
-import About from "./components/About.jsx";
-import Crew from "./components/Crew.jsx";
-import Opportunities from "./components/Opportunities.jsx";
-import Domaine from "./components/Domaine.jsx";
-import Admission from "./components/Admission.jsx";
-import Program from "./components/Program.jsx";
-import Techno from "./components/Techno.jsx";
-import Partenaire from "./components/Partenaire.jsx";
+import NavBar from "./sections/NavBar.jsx";
+import Hero from "./sections/Hero.jsx";
+import About from "./sections/About.jsx";
+import Crew from "./sections/Crew.jsx";
+import Opportunities from "./sections/Opportunities.jsx";
+import Domaine from "./sections/Domaine.jsx";
+import Admission from "./sections/Admission.jsx";
+import Program from "./sections/Program.jsx";
+import Techno from "./sections/Techno.jsx";
+import Partenaire from "./sections/Partenaire.jsx";
+import Footer from "./sections/Footer.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Program/>
       <Techno/>
       <Partenaire/>
+      <Footer/>
     </>
   );
 }

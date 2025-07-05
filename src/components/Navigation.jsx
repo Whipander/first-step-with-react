@@ -1,16 +1,20 @@
 import React from "react";
-const Link = ({ text, redirection, active, textSize, textColor }) => {
-  return (
+const Link = ({ text, redirection, active, size, color }) => {
+  return active ? (
+    <li className={`${size} font-bold text-amber-400`}>
+      <a href={redirection}>{text}</a>
+    </li>
+  ) : (
     <li
       href={redirection}
-      className={`${textSize} font-bold hover:text-amber-400 ${textColor}`}
+      className={`${size} font-bold hover:text-amber-400 ${color}`}
     >
-      {text}
+      <a href={redirection}>{text}</a>
     </li>
   );
 };
 
-const Navigation = () => {
+const Navigation = ({ textSize, textColor, ulDirection }) => {
   const links = [
     {
       text: "ACCUEIL",
@@ -31,11 +35,18 @@ const Navigation = () => {
   ];
   return (
     <div>
-      <ul>
+      <ul className={`flex gap-5 ${ulDirection}`}>
         {links.map((link, index) => {
-          <li key={index}>
-            <a href={link.href}>{link.text}</a>
-          </li>;
+          return (
+            <Link
+              key={index}
+              text={link.text}
+              redirection={link.href}
+              size={textSize}
+              color={textColor}
+              active={index == 0 ? true : false}
+            ></Link>
+          );
         })}
       </ul>
     </div>

@@ -1,5 +1,6 @@
 import heiLogo from "../assets/hei-logo.png";
 import Button from "../components/Button.jsx";
+import Navigation from "../components/Navigation.jsx";
 
 function NavBar() {
   return (
@@ -10,20 +11,7 @@ function NavBar() {
         </div>
         <div>
           <div className="flex gap-5 items-center">
-            <ul className="flex gap-5 items-center">
-              <li className="text-amber-400">
-                <a >ACCUEIL</a>
-              </li>
-              <li className="hover:text-amber-400">
-                <a>ACTUALITÉS</a>
-              </li>
-              <li className="hover:text-amber-400">
-                <a>BOURSE D'ÉTUDES</a>
-              </li>
-              <li className="hover:text-amber-400">
-                <a>INSCRIPTION</a>
-              </li>
-            </ul>
+            <Navigation textColor={"text-white"} textSize={"xl"}></Navigation>
             <Button label="INTRANET" btnStyle={"orange"} size={"md"} />
           </div>
         </div>

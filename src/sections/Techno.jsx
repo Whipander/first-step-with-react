@@ -1,4 +1,4 @@
-import H2 from "./H2";
+import H2 from "../components/H2";
 import TechImg1 from "../assets/techno/techno1.png";
 import TechImg2 from "../assets/techno/techno2.png";
 import TechImg3 from "../assets/techno/techno3.png";

@@ -1,5 +1,5 @@
 import ProgImg from "../assets/program.webp";
-import H2 from "./H2";
+import H2 from "../components/H2";
 import ProgImg1 from "../assets/pro1.webp";
 import ProgImg2 from "../assets/pro2.webp";
 import ProgImg3 from "../assets/pro3.webp";
