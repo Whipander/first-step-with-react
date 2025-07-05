@@ -7,10 +7,10 @@ import ProgImg3 from "../assets/pro3.webp";
 const ProgramCard = ({ percentage, title }) => {
   return (
     <div
-      className="rounded-3xl bg-amber-100 h-[230px] w-[270px]
+      className="rounded-3xl bg-[#FFEFD5] h-[230px] w-[270px]
      flex flex-col gap-5 p-5"
     >
-      <div className="text-amber-500 text-5xl font-bold">{percentage}</div>
+      <div className="text-[#DFA408] text-5xl font-bold">{percentage}</div>
       <div className="font-bold text-2xl text-blue-950">{title}</div>
     </div>
   );
@@ -55,21 +55,9 @@ const Program = () => {
             <ProgramCard percentage="25%" title="Apprentissage en entreprise" />
           </div>
           <div className="grid grid-cols-3 gap-5">
-            <img
-              src={ProgImg1}
-              alt="People in HEI"
-              className=""
-            />
-            <img
-              src={ProgImg2}
-              alt="People in HEI"
-              className=""
-            />
-            <img
-              src={ProgImg3}
-              alt="People in HEI"
-              className=""
-            />
+            <img src={ProgImg1} alt="People in HEI" className="" />
+            <img src={ProgImg2} alt="People in HEI" className="" />
+            <img src={ProgImg3} alt="People in HEI" className="" />
           </div>
         </div>
       </div>

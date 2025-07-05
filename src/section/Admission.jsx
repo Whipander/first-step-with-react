@@ -50,21 +50,21 @@ const Admission = () => {
         <div className="flex">
           <AdmissionCard
             number="01"
-            color="bg-amber-200"
+            color="bg-[#FCDFB5]"
             title="Dépôt de dossiers"
             content="pour les bacheliers de toutes séries sans limite d’âge"
             arrow={true}
           />
           <AdmissionCard
             number="02"
-            color="bg-amber-300"
+            color="bg-[#FFCD8C]"
             title="Test de niveau"
             content="composé d’une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau Terminale D"
             arrow={true}
           />
           <AdmissionCard
             number="03"
-            color="bg-amber-400"
+            color="bg-[#F9BF58]"
             title="Inscription définitive"
             content="(si test réussi)"
             arrow={false}
