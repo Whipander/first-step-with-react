@@ -1,6 +1,5 @@
 import { AdmissionCard } from "../components/AdmissionCard";
 import H2 from "../components/H2";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 const Admission = () => {
