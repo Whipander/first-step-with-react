@@ -27,7 +27,7 @@ const Footer = () => {
   ];
   return (
     <>
-      <footer className="bg-blue-950 pt-4 pb-12">
+      <footer className="bg-blue-950 pt-4 pb-12 ">
         <div className="w-2/3 flex justify-around mx-auto py-3">
           <div className="w-1/6 flex flex-col gap-5">
             <img src={heiLogo} alt="HEI logo" width={90} />
@@ -60,7 +60,7 @@ const Footer = () => {
                       icon={icon.icon}
                       key={index}
                       size="xl"
-                      className="bg-amber-400 p-2 aspect-square rounded-full text-white cursor-pointer"
+                      className="bg-amber-400 p-2 aspect-square rounded-full text-white cursor-pointer hover:bg-amber-400/90 transition-all"
                     />
                   </a>
                 );
