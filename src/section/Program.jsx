@@ -3,18 +3,7 @@ import H2 from "../components/H2";
 import ProgImg1 from "../assets/pro1.webp";
 import ProgImg2 from "../assets/pro2.webp";
 import ProgImg3 from "../assets/pro3.webp";
-
-const ProgramCard = ({ percentage, title }) => {
-  return (
-    <div
-      className="rounded-3xl bg-[#FFEFD5] h-[230px] w-[270px]
-     flex flex-col gap-5 p-5"
-    >
-      <div className="text-[#DFA408] text-5xl font-bold">{percentage}</div>
-      <div className="font-bold text-2xl text-blue-950">{title}</div>
-    </div>
-  );
-};
+import { ProgramCard } from "../components/ProgramCard";
 
 const Program = () => {
   return (
