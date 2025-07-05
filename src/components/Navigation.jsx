@@ -7,7 +7,7 @@ const Link = ({ text, redirection, active, size, color }) => {
   ) : (
     <li
       href={redirection}
-      className={`${size} font-bold hover:text-amber-400 ${color}`}
+      className={`${size} font-bold hover:text-amber-400 transition-colors ${color}`}
     >
       <a href={redirection}>{text}</a>
     </li>
