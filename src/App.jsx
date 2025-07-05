@@ -8,6 +8,7 @@ import Admission from "./components/Admission.jsx";
 import Program from "./components/Program.jsx";
 import Techno from "./components/Techno.jsx";
 import Partenaire from "./components/Partenaire.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -16,12 +17,13 @@ function App() {
       <Hero />
       <About />
       <Crew />
-      <Opportunities/>
-      <Domaine/>
-      <Admission/>
-      <Program/>
-      <Techno/>
-      <Partenaire/>
+      <Opportunities />
+      <Domaine />
+      <Admission />
+      <Program />
+      <Techno />
+      <Partenaire />
+      <Footer />
     </>
   );
 }

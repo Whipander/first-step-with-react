@@ -1,4 +1,4 @@
-import H2 from "./H2.jsx";
+import H2 from "../components/H2.jsx";
 import opportunitesImg from "../assets/opportunities.webp";
 const Opportunities = () => {
   const paragraphes = [

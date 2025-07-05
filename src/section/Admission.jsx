@@ -1,4 +1,4 @@
-import H2 from "./H2";
+import H2 from "../components/H2";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

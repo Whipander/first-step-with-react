@@ -1,4 +1,4 @@
-import H2 from "./H2";
+import H2 from "../components/H2";
 
 import ParImg1 from "../assets/partenaires/par1.webp";
 import ParImg2 from "../assets/partenaires/par2.png";

@@ -5,7 +5,7 @@ import {
   faPeopleGroup,
   faMedal,
 } from "@fortawesome/free-solid-svg-icons";
-import H2 from "./H2.jsx";
+import H2 from "../components/H2.jsx";
 
 function About() {
   const textContent = [

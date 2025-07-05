@@ -9,7 +9,7 @@ import heiBanner1 from "../assets/hei-banner-1.webp";
 import heiBanner2 from "../assets/hei-banner-2.webp";
 import heiBanner3 from "../assets/hei-banner-3.webp";
 
-import Button from "./Button.jsx";
+import Button from "../components/Button.jsx";
 
 function Hero() {
   const slides = [

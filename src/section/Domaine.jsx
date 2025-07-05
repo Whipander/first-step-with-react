@@ -1,4 +1,4 @@
-import H2 from "./H2";
+import H2 from "../components/H2";
 import CloudImg from "../assets/cloud.png";
 import IntelImg from "../assets/intel.png";
 import IngenImg from "../assets/ingen.png";
